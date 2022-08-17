@@ -15,12 +15,12 @@
 		0D5575CF28AA64F5003D41C4 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575CE28AA64F5003D41C4 /* PokemonModel.swift */; };
 		0D5575D128AA6527003D41C4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575D028AA6527003D41C4 /* Constant.swift */; };
 		0D5575D328AA6573003D41C4 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575D228AA6573003D41C4 /* ListViewModel.swift */; };
-		0D5575D528AA669D003D41C4 /* ListVC + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575D428AA669D003D41C4 /* ListVC + TableView.swift */; };
 		0D5575DE28AA7FA9003D41C4 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5575DD28AA7FA9003D41C4 /* Detail.storyboard */; };
 		0D5575E028AA80B9003D41C4 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575DF28AA80B9003D41C4 /* DetailVC.swift */; };
 		0D5575E428AA942C003D41C4 /* PokemonIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575E328AA942C003D41C4 /* PokemonIDModel.swift */; };
 		0D5575E828AAC26C003D41C4 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575E728AAC26C003D41C4 /* imageView.swift */; };
 		0D5575EC28AAF353003D41C4 /* NextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575EB28AAF353003D41C4 /* NextModel.swift */; };
+		0DA66DCE28ADAE7800C8F52D /* ListVC + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA66DCD28ADAE7800C8F52D /* ListVC + TableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +34,12 @@
 		0D5575CE28AA64F5003D41C4 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 		0D5575D028AA6527003D41C4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0D5575D228AA6573003D41C4 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		0D5575D428AA669D003D41C4 /* ListVC + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListVC + TableView.swift"; sourceTree = "<group>"; };
 		0D5575DD28AA7FA9003D41C4 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		0D5575DF28AA80B9003D41C4 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		0D5575E328AA942C003D41C4 /* PokemonIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonIDModel.swift; sourceTree = "<group>"; };
 		0D5575E728AAC26C003D41C4 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
 		0D5575EB28AAF353003D41C4 /* NextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextModel.swift; sourceTree = "<group>"; };
+		0DA66DCD28ADAE7800C8F52D /* ListVC + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListVC + TableView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 				0D5575C728AA6465003D41C4 /* List.storyboard */,
 				0D5575C928AA647C003D41C4 /* ListVC.swift */,
 				0D5575D228AA6573003D41C4 /* ListViewModel.swift */,
-				0D5575D428AA669D003D41C4 /* ListVC + TableView.swift */,
+				0DA66DCD28ADAE7800C8F52D /* ListVC + TableView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -227,8 +227,8 @@
 				0D5575D128AA6527003D41C4 /* Constant.swift in Sources */,
 				0D5575E428AA942C003D41C4 /* PokemonIDModel.swift in Sources */,
 				0D5575E028AA80B9003D41C4 /* DetailVC.swift in Sources */,
+				0DA66DCE28ADAE7800C8F52D /* ListVC + TableView.swift in Sources */,
 				0D5575B328AA6440003D41C4 /* AppDelegate.swift in Sources */,
-				0D5575D528AA669D003D41C4 /* ListVC + TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
