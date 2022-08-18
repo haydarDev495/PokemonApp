@@ -21,6 +21,7 @@
 		0D5575E828AAC26C003D41C4 /* imageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575E728AAC26C003D41C4 /* imageView.swift */; };
 		0D5575EC28AAF353003D41C4 /* NextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5575EB28AAF353003D41C4 /* NextModel.swift */; };
 		0DA66DCE28ADAE7800C8F52D /* ListVC + TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA66DCD28ADAE7800C8F52D /* ListVC + TableView.swift */; };
+		0DA66DD728ADC2B300C8F52D /* PokemonInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA66DD628ADC2B300C8F52D /* PokemonInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0D5575E728AAC26C003D41C4 /* imageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageView.swift; sourceTree = "<group>"; };
 		0D5575EB28AAF353003D41C4 /* NextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextModel.swift; sourceTree = "<group>"; };
 		0DA66DCD28ADAE7800C8F52D /* ListVC + TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListVC + TableView.swift"; sourceTree = "<group>"; };
+		0DA66DD628ADC2B300C8F52D /* PokemonInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				0D5575CE28AA64F5003D41C4 /* PokemonModel.swift */,
 				0D5575E328AA942C003D41C4 /* PokemonIDModel.swift */,
 				0D5575EB28AAF353003D41C4 /* NextModel.swift */,
+				0DA66DD628ADC2B300C8F52D /* PokemonInfoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				0D5575CF28AA64F5003D41C4 /* PokemonModel.swift in Sources */,
 				0D5575CA28AA647C003D41C4 /* ListVC.swift in Sources */,
 				0D5575EC28AAF353003D41C4 /* NextModel.swift in Sources */,
+				0DA66DD728ADC2B300C8F52D /* PokemonInfoModel.swift in Sources */,
 				0D5575E828AAC26C003D41C4 /* imageView.swift in Sources */,
 				0D5575D328AA6573003D41C4 /* ListViewModel.swift in Sources */,
 				0D5575D128AA6527003D41C4 /* Constant.swift in Sources */,

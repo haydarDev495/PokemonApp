@@ -15,7 +15,7 @@ class DetailVC: UIViewController {
     @IBOutlet var weightLabel: UILabel!
         
     var pokemonId = ""
-    private var pokemonInfo: Model?
+    private var pokemonInfo: PokemonInfoMode?
     private var type = ""
     
     override func viewDidLoad() {
@@ -41,7 +41,7 @@ class DetailVC: UIViewController {
                         type = i.type.name
                     }
                     
-                    pokemonInfo = Model(name: json.name,
+                    pokemonInfo = PokemonInfoMode(name: json.name,
                                         image: json.sprites.front_shiny,
                                         height: json.height,
                                         weight: json.weight)
@@ -78,10 +78,3 @@ class DetailVC: UIViewController {
     }
 }
 
-
-struct Model {
-    var name: String
-    var image: String
-    var height: Int
-    var weight: Int
-}
